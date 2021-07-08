@@ -1,0 +1,8 @@
+
+Since Git LFS 2.2.0 you can use git lfs migrate command. In your case it would look this way:
+
+git lfs migrate import --include="*.csv"
+
+
+
+https://stackoverflow.com/questions/33330771/git-lfs-this-exceeds-githubs-file-size-limit-of-100-00-mb
